@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="WaveFilter/WaveFilter.cbp" />
+		<Project filename="DelayFilter/DelayFilter.cbp" />
+		<Project filename="RTVideoFilter/RTVideoFilter.cbp" active="1" />
+		<Project filename="TresholdFilter/TresholdFilter.cbp" />
+		<Project filename="BlurFilter/BlurFilter.cbp" />
+		<Project filename="WeightFilter/WeightFilter.cbp" />
+		<Project filename="GrayscaleFilter/GrayscaleFilter.cbp" />
+		<Project filename="SquareFilter/SquareFilter.cbp" />
+		<Project filename="FadeawayFilter/FadeawayFilter.cbp" />
+		<Project filename="ColorFilter/ColorFilter.cbp" />
+		<Project filename="NoiseFilter/NoiseFilter.cbp" />
+		<Project filename="EdgeFilter/EdgeFilter.cbp" />
+		<Project filename="MediaFileDecoder/MediaFileDecoder.cbp" />
+		<Project filename="FirewireDecoder/FirewireDecoder.cbp" />
+		<Project filename="PipeDecoder/PipeDecoder.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

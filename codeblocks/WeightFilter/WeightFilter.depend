@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1227467612 source:/home/mrate/projects/rtvideofilter/src/modules/WeightFilter.cpp
+	"WeightFilter.h"
+
+1227172045 /home/mrate/projects/rtvideofilter/src/modules/WeightFilter.h
+	"../modulesapi/VideoFilter.h"
+
+1227432942 /home/mrate/projects/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+

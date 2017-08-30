@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1227448735 source:/home/mrate/projects/rtvideofilter/src/decoders/MediaFileDecoder.cpp
+	"MediaFileDecoder.h"
+	<string>
+	<iostream>
+	<sys/times.h>
+
+1227446044 /home/mrate/projects/rtvideofilter/src/decoders/MediaFileDecoder.h
+	"../decodersapi/VideoDecoder.h"
+	<libavformat/avformat.h>
+	<libavdevice/avdevice.h>
+	<libavcodec/opt.h>
+	<libswscale/swscale.h>
+	<libavcodec/avcodec.h>
+	<string>
+	<allegro.h>
+	<iostream>
+
+1227445991 /home/mrate/projects/rtvideofilter/src/decodersapi/VideoDecoder.h
+	<allegro.h>
+	<iostream>
+

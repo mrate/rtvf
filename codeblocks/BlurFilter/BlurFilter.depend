@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1227172537 source:/home/mrate/projects/rtvideofilter/src/modules/BlurFilter.cpp
+	"BlurFilter.h"
+
+1227172528 /home/mrate/projects/rtvideofilter/src/modules/BlurFilter.h
+	"../modulesapi/VideoFilter.h"
+
+1227169899 /home/mrate/projects/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+

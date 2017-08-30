@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RTVideoFilter" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../bin/rtvf" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../../bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-d MediaFileDecoder.so,file=/home/mrate/How.I.Met.Your.Mother.S08E22.HDTV.x264-LOL.mp4 -w 1024 -h 768" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D__STDC_CONSTANT_MACROS" />
+				</Compiler>
+				<Linker>
+					<Add option="`allegro-config --libs`" />
+					<Add library="dl" />
+					<Add library="avcodec" />
+					<Add library="avformat" />
+					<Add library="swscale" />
+					<Add library="iec61883" />
+					<Add library="avutil" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RTVideoFilter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../decodersapi/VideoDecoder.h" />
+		<Unit filename="../../modulesapi/VideoFilter.h" />
+		<Unit filename="../../rtvideofilter/RTVideoFilter.cpp" />
+		<Unit filename="../../rtvideofilter/VideoEncoder.cpp" />
+		<Unit filename="../../rtvideofilter/VideoEncoder.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

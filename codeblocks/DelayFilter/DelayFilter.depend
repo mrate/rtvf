@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1227172812 source:/home/mrate/projects/rtvideofilter/src/modules/DelayFilter.cpp
+	"DelayFilter.h"
+
+1227172612 /home/mrate/projects/rtvideofilter/src/modules/DelayFilter.h
+	"../modulesapi/VideoFilter.h"
+
+1227169899 /home/mrate/projects/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+

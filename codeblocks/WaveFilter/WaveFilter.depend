@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1227173911 source:/home/mrate/projects/rtvideofilter/src/modules/WaveFilter.cpp
+	"WaveFilter.h"
+	<math.h>
+
+1227173970 /home/mrate/projects/rtvideofilter/src/modules/WaveFilter.h
+	"../modulesapi/VideoFilter.h"
+
+1227348578 /home/mrate/projects/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+
+1227173911 source:/home/mrate/workspace/rtvf/rtvideofilter/src/modules/WaveFilter.cpp
+	"WaveFilter.h"
+	<math.h>
+
+1227173970 /home/mrate/workspace/rtvf/rtvideofilter/src/modules/WaveFilter.h
+	"../modulesapi/VideoFilter.h"
+
+1232911501 /home/mrate/workspace/rtvf/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+

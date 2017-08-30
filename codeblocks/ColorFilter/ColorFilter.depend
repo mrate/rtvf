@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1227172887 source:/home/mrate/projects/rtvideofilter/src/modules/ColorFilter.cpp
+	"ColorFilter.h"
+
+1227172869 /home/mrate/projects/rtvideofilter/src/modules/ColorFilter.h
+	"../modulesapi/VideoFilter.h"
+
+1227169899 /home/mrate/projects/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+

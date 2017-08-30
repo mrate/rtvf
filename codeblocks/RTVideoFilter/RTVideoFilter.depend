@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1227169556 source:/home/mrate/projects/rtvideofilter/src/rtvideofilter/PipeDecoder.cpp
+	"PipeDecoder.h"
+
+1227372536 /home/mrate/projects/rtvideofilter/src/rtvideofilter/PipeDecoder.h
+	<iostream>
+	<allegro.h>
+	"../decodersapi/VideoDecoder.h"
+
+1227169561 /home/mrate/projects/rtvideofilter/src/rtvideofilter/VideoDecoder.h
+	<libavformat/avformat.h>
+	<libavdevice/avdevice.h>
+	<libavcodec/opt.h>
+	<libswscale/swscale.h>
+	<libavcodec/avcodec.h>
+	<string>
+	<allegro.h>
+
+1227468882 source:/home/mrate/projects/rtvideofilter/src/rtvideofilter/RTVideoFilter.cpp
+	<iostream>
+	<fstream>
+	<allegro.h>
+	<vector>
+	<sys/times.h>
+	<dirent.h>
+	<dlfcn.h>
+	"../modulesapi/VideoFilter.h"
+	"../decodersapi/VideoDecoder.h"
+	"VideoEncoder.h"
+
+1227432942 /home/mrate/projects/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+
+1227348518 /home/mrate/projects/rtvideofilter/src/rtvideofilter/VideoEncoder.h
+	<libavformat/avformat.h>
+	<libswscale/swscale.h>
+	<allegro.h>
+
+1227372594 /home/mrate/projects/rtvideofilter/src/rtvideofilter/VideoCapturer.h
+	"../decodersapi/VideoDecoder.h"
+	<libavformat/avformat.h>
+	<libavdevice/avdevice.h>
+	<libavcodec/opt.h>
+	<libswscale/swscale.h>
+	<libavcodec/avcodec.h>
+	<libiec61883/iec61883.h>
+	<allegro.h>
+
+1227169556 source:/home/mrate/projects/rtvideofilter/src/rtvideofilter/VideoCapturer.cpp
+	"VideoCapturer.h"
+	<iostream>
+	<sys/poll.h>
+
+1227169556 source:/home/mrate/projects/rtvideofilter/src/rtvideofilter/VideoDecoder.cpp
+	"VideoDecoder.h"
+	<string>
+	<iostream>
+
+1227375158 source:/home/mrate/projects/rtvideofilter/src/rtvideofilter/VideoEncoder.cpp
+	"VideoEncoder.h"
+	<iostream>
+
+1227445991 /home/mrate/projects/rtvideofilter/src/decodersapi/VideoDecoder.h
+	<allegro.h>
+	<iostream>
+
+1227435952 source:/home/mrate/projects/rtvideofilter/src/rtvideofilter/MediaFileDecoder.cpp
+	"MediaFileDecoder.h"
+	<string>
+	<iostream>
+	<sys/times.h>
+
+1227435952 /home/mrate/projects/rtvideofilter/src/rtvideofilter/MediaFileDecoder.h
+	"../decodersapi/VideoDecoder.h"
+	<libavformat/avformat.h>
+	<libavdevice/avdevice.h>
+	<libavcodec/opt.h>
+	<libswscale/swscale.h>
+	<libavcodec/avcodec.h>
+	<string>
+	<allegro.h>
+
+1367529876 source:/home/mrate/workspace/rtvf/rtvideofilter/src/rtvideofilter/RTVideoFilter.cpp
+	<iostream>
+	<fstream>
+	<allegro.h>
+	<vector>
+	<sys/times.h>
+	<dirent.h>
+	<dlfcn.h>
+	"../modulesapi/VideoFilter.h"
+	"../decodersapi/VideoDecoder.h"
+	"VideoEncoder.h"
+
+1232911501 /home/mrate/workspace/rtvf/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+
+1232911727 /home/mrate/workspace/rtvf/rtvideofilter/src/decodersapi/VideoDecoder.h
+	<allegro.h>
+	<iostream>
+
+1367424875 /home/mrate/workspace/rtvf/rtvideofilter/src/rtvideofilter/VideoEncoder.h
+	<libavformat/avformat.h>
+	<libswscale/swscale.h>
+	<allegro.h>
+
+1367528686 source:/home/mrate/workspace/rtvf/rtvideofilter/src/rtvideofilter/VideoEncoder.cpp
+	"VideoEncoder.h"
+	<iostream>
+	<libavutil/mathematics.h>
+	<libavformat/avformat.h>
+

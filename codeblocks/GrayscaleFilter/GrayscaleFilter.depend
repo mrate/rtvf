@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1227172234 source:/home/mrate/projects/rtvideofilter/src/modules/GrayscaleFilter.cpp
+	"GrayscaleFilter.h"
+
+1227172225 /home/mrate/projects/rtvideofilter/src/modules/GrayscaleFilter.h
+	"../modulesapi/VideoFilter.h"
+
+1227169899 /home/mrate/projects/rtvideofilter/src/modulesapi/VideoFilter.h
+	<allegro.h>
+	<string>
+	<map>
+	<vector>
+
