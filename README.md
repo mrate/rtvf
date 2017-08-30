@@ -14,3 +14,6 @@ Modular architecture consists of:
     - fade in/out
     - threshold
     - etc.
+
+Example run:
+./rtvf -d MediaFileDecoder.so,file=/home/mrate/video.mpg -w 800 -h 600 -f
